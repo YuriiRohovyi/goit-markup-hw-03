@@ -1,5 +1,6 @@
 img {
   max-width: 100%;
+  display: block;
 }
 
 :root {
@@ -56,6 +57,7 @@ body {
   padding-bottom: 24px;
   display: flex;
   border-bottom: 1px solid #e7e9fc;
+  align-items: center;
 }
 .header-container {
   display: flex;

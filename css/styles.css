@@ -373,18 +373,22 @@ body {
 }
 /* -------portfolio page-------- */
 
-.section1_button {
+.section-portfolio {
   list-style: none;
+  padding: 96px 0 120px 0;
 }
 
 .button-list {
   text-decoration: none;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
 }
 
 .button_navportfolio {
-  background-color: var(--accent-background-color);
+  background-color: var(--gray-background-color);
   color: var(--accent-color);
-  border: 1px solid #e7e9fc;
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
@@ -392,6 +396,9 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
 }
 
 .list-portfoliobutton {
@@ -400,28 +407,44 @@ body {
 
 .list-portfolioimg {
   list-style: none;
+  width: calc((100% - 48px) / 3);
 }
 
 .button_navportfolio:is(:hover, :focus) {
   color: var(--white-color);
   background-color: #404bbf;
   cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.full-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolioimg {
   text-decoration: none;
 }
 
-.service_name {
+.div-portfolio-item {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.service-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
   text-decoration: none;
+  margin-bottom: 8px;
 }
 
-.service_app {
+.service-app {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

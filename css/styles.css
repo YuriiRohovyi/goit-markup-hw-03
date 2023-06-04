@@ -186,8 +186,8 @@ body {
 .section-os {
   color: var(--secondary-color);
   background-color: var(--secondary-color);
-  padding-top: 188px;
-  padding-bottom: 292px;
+  padding: 188px 0;
+  display: flex;
 }
 
 .button {

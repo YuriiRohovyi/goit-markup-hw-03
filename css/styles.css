@@ -387,6 +387,9 @@ body {
 }
 /* -------portfolio page-------- */
 
+.visually-hidden {
+  display: none;
+}
 .section-portfolio {
   list-style: none;
   padding: 96px 0 120px 0;

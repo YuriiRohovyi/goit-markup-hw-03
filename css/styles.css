@@ -229,6 +229,7 @@ body {
 
 .about-us {
   padding: 120px 0;
+  display: flex;
 }
 .about_us_menu {
   margin-bottom: 8px;
